@@ -2,7 +2,10 @@
     padding: 0%;
     margin: 0%;
 }
-
+#img{
+    padding: 0%;
+    margin: 0%;
+}
 .mr-3{
     margin: 1%;
 }
@@ -11,4 +14,48 @@ h5, p{
     margin: 0 3%;
     display: flex;
     text-align: justify;
+    font-family: 'Cuprum', sans-serif;
+}
+
+#align{
+    justify-content: space-between;
+}
+
+.space{
+    justify-content: space-between;
+    padding: 0%;
+    margin: 4%;
+}
+
+.center{
+    justify-content: center;
+    text-align: center;
+}
+
+h1, a, button, .btn-outline-success, .pag{
+    color: #5a1f36;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.btn{
+    border-color: #5a1f36;
+    font-weight:bolder;
+    text-decoration:none;
+}
+
+.btn:hover{
+    background-color: #5a1f36;
+    border-color: #5a1f36;
+}
+
+footer{
+    background-color: rgb(236, 202, 214);
+}
+
+body{
+    background-color: rgb(251, 226, 235);
+}
+
+#bord{
+    box-shadow: none;
 }

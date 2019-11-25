@@ -9,21 +9,25 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Cuprum|Permanent+Marker&display=swap" rel="stylesheet">
         <title>Blog</title>
 
     </head>
     <body>
         <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#"><img src="assets/image/makes.jpg" alt="logo" width="50" height="50"></a>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" id="align">
+                  <logo>
+                        <a class="navbar-brand" id="img" href="#"><img src="assets/image/makes.jpg" alt="logo" width="70" height="70"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                           <span class="navbar-toggler-icon"></span>
                         </button>
+                  </logo>
                       
+                  <opc>
                         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                           <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                              <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">About</a>
@@ -33,46 +37,77 @@
                                 Contacts
                               </a>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#"><img src="assets/image/insta.png" alt="" width="30" height="30"> Instagram</a>
-                                <a class="dropdown-item" href="#"><img src="assets/image/face.png" alt="" width="30" height="30"> Facebook</a>
-                                <a class="dropdown-item" href="#"><img src="assets/image/pinterest-logo-png-circle-6.png" alt="" width="30" height="30"> Pinterest</a>
-                                <a class="dropdown-item" href="#"><img src="assets/image/whatsapp-logo-1-1.png" alt="" width="30" height="30"> WhatsApp</a>
+                                <a class="dropdown-item" href="https://www.instagram.com/?hl=pt-br" target="_blank"><img src="assets/image/insta.png" alt="" width="30" height="30"> Instagram</a>
+                                <a class="dropdown-item" href="https://pt-br.facebook.com/" target="_blank"><img src="assets/image/face.png" alt="" width="30" height="30"> Facebook</a>
+                                <a class="dropdown-item" href="https://br.pinterest.com/" target="_blank"><img src="assets/image/pinterest-logo-png-circle-6.png" alt="" width="30" height="30"> Pinterest</a>
+                                <a class="dropdown-item" href="https://www.whatsapp.com/" target="_blank"><img src="assets/image/whatsapp-logo-1-1.png" alt="" width="30" height="30"> WhatsApp</a>
                               </div>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link disabled" href="#">Store</a>
+                              <a class="nav-link" href="#">Store</a>
                             </li>
                           </ul>
-                          <button class = "btn btn-outline-success my-2 my-sm-0" type="button">CADASTRE-SE | LOGIN</button>
-                          <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Pesquisar">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                          </form>
                         </div>
+                    </opc>
+
+                    <login>
+                        <a href="assets/html/Formulario.html" class = "btn btn-outline-success my-2 my-sm-0" id="bord">CADASTRE-SE | LOGIN</a>
+                    </login>
                       </nav>
         </header>
-        <section>
-            <div class="card" style="width: 30rem;">
-                <img class="card-img-top" src="assets/image/maquiagem.jpg" alt="Maquiagem" width="100" height="200">
-                <div class="card-body">
-                  <h5 class="card-title">Como vender cosméticos e aumentar sua renda</h5>
-                  <p class="card-text">Para quem está buscando uma maneira de aumentar a renda, pode se interessar em algum produto que consiga trazer lucros e manter uma boa rede de clientes. Uma opção através da venda de cosméticos, contando com uma boa opção que é qual o melhor colágeno para conseguir vender também no seu negócio de cosméticos.</p>
-                  <a href="#" class="btn btn-primary">Visitar</a>
-                </div>
 
-                <img class="card-img-top" src="assets/image/esmaltes.jpg" alt="Esmaltes" width="100" height="300">
-                <div class="card-body">
-                  <h5 class="card-title">Kit com 30 Esmaltes Dailus - Coleção de Esmaltes Dailus</h5>
-                  <p class="card-text">Em um design exclusivo, sua tampa anatômica possui um pincel flat big blush, desenvolvido com cerdas mais cheias, proporcionando uniformidade na aplicação e resultado surpreendente.</p>
-                  <a href="#" class="btn btn-primary">Store</a>
+        <section class="space">
+          <form class="form-inline my-2 my-lg-2 space">
+            <h1>Beleza e Cosméticos</h1>
+            <div>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="bord">Search</button>
+            </div>
+          </form>
+        </section>
+        
+        <section class="space">
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body center">
+                      <img class="card-img-top" src="assets/image/maquiagem.jpg" alt="Maquiagem" width="50" height="300">
+                      <h5 class="card-title space">Como vender cosméticos e aumentar sua renda</h5>
+                      <p class="card-text">Para quem está buscando uma maneira de aumentar a renda, pode se interessar em algum produto que consiga trazer lucros e manter uma boa rede de clientes. Uma opção através da venda de cosméticos, contando com uma boa opção que é qual o melhor colágeno para conseguir vender também no seu negócio de cosméticos.</p>
+                      <a href="https://alast.com.br/como-vender-cosmeticos-e-aumentar-sua-renda/"  target="_blank" class = "btn btn-outline-success my-2 my-sm-0" id="bord">Visitar</a>
+                    </div>
+                  </div>
                 </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body center">
+                        <img class="card-img-top" src="assets/image/esmaltes.jpg" alt="Esmaltes" width="50" height="400">
+                        <h5 class="card-title space">Kit com 30 Esmaltes Dailus - Coleção de Esmaltes Dailus</h5>
+                        <p class="card-text">Em um design exclusivo, sua tampa anatômica possui um pincel flat big blush, desenvolvido com cerdas mais cheias, proporcionando uniformidade na aplicação e resultado surpreendente.</p>
+                        <a href="https://www.meninamocabeleza.com.br/kit-com-30-esmaltes-dailus-colecao-de-esmaltes-dailus" target="_blank" class = "btn btn-outline-success my-2 my-sm-0" id="bord">Store</a>
+                      </div>
+                    </div>
+                  </div>
               </div>
         </section>
 
+        <section>
+            <nav aria-label="Navegação de página exemplo">
+                <ul class="pagination center">
+                  <li class="page-item"><a class="page-link pag" href="#">Anterior</a></li>
+                  <li class="page-item"><a class="page-link pag" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link pag" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link pag" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link pag" href="#">Próximo</a></li>
+                </ul>
+              </nav>
+        </section>
 
-
-
-
+        <footer class="page-footer font-small pt-4">
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+              <a class = "my-2 my-sm-0" target="_blank" href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            </div>
+        </footer>
 
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
