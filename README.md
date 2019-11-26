@@ -1,2 +1,2 @@
 # Programação WEB
-Aprendendo HTML, CSS, Bootstrap
+Aprendendo HTML, CSS, Bootstrap, JS
