@@ -1,0 +1,22 @@
+.linharosa{
+    background-color: rosybrown;
+}
+.linhamarrom{
+    background-color: rgb(102, 56, 56);
+}
+.linhacinza{
+    background-color: silver;
+}
+.row{
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(214, 197, 197);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
