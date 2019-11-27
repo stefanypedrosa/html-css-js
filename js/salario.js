@@ -29,5 +29,5 @@ function salLiq(){
     var salBruto = document.getElementById("salario").value;
     var imposto = calcularimposto();
     var salLiq = salBruto - imposto;
-    document.getElementById("resultado").innerHTML = "Valor do imposto devido: R$" + imposto + "<br/> Valor do salario total: R$" + salLiq + "<br/>";
+    document.getElementById("resultado").innerHTML = "Valor do imposto devido: R$" + imposto.toFixed(2) + "<br/> Valor do salario total: R$" + salLiq.toFixed(2) + "<br/>";
 }

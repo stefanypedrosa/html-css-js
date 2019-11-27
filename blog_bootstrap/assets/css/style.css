@@ -46,6 +46,7 @@ h1, a, button, .btn-outline-success, .pag{
 .btn:hover{
     background-color: #5a1f36;
     border-color: #5a1f36;
+    color: white;
 }
 
 footer{
