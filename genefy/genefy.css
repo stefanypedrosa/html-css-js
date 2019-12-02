@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    background-color: rosybrown;
+    font-family: 'Righteous', cursive;
+    padding: 3%;
+}
+
+.btn{
+    border-color: #5a1f36;
+    background-color: #f1f3f4;
+    font-weight:bolder;
+    text-decoration:none;
+    color: #5a1f36;
+}
+
+.btn:hover{
+    background-color: #5a1f36;
+    border-color: #5a1f36;
+    color: white;
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+.botao{
+    justify-content: center;
+    display: flex;
+    margin-left: 1%;
+}
+
+footer{
+    background-color: rosybrown;
+    margin-block-start: 25.5%;
+    display: fixed;
+    color: #5a1f36;
+}
+
+
+body{
+    background-color: rgb(251, 226, 235);
+    color: #5a1f36;
+}
