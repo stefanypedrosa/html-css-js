@@ -21,18 +21,19 @@ h1{
 
 video{
     display: block;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 25%;
+    height: 50%;
+    width: 50%;
 }
 .botao{
     justify-content: center;
-    display: inline-flex;
-    margin-left: 1%;
+    display: center;
+    margin-left: 40%;
 }
 
 footer{
     background-color: rosybrown;
-    margin-block-start: 25.5%;
+    margin-block-start: 1.8%;
     display: fixed;
     color: #5a1f36;
 }
