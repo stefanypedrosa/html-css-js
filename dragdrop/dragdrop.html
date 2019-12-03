@@ -6,31 +6,25 @@
 
     <body>
         <h1>KANBAN</h1>
+        <div id="entrada">
+            <input class="btn" id="tarefa" placeholder="Digite sua proxima tarefa"> 
+            <button class="btn btn-outline botao" onclick="adcTarefa();">Nova Tarefa!</button>
+        </div>
         <div class="container">
             <div class="row" id="titulos">
                 <div class="col-md-4">
-                    <h3>Pendentes</h3>
+                    <h3>TO DO</h3>
                 </div>
                 <div class="col-md-4">
-                    <h3>Fazendo</h3>
+                    <h3>DOING</h3>
                 </div>
                 <div class="col-md-4">
-                    <h3> Concluidas</h3>
+                    <h3>DONE</h3>
                 </div>
             </div>
 
             <div class="row" id="tarefas">
-                <div class="col-md-4 coluna" ondrop="recebeItem(event);" ondragover="habilitaArrastar(event);"
-                    id="pendentes">
-                    <div class="itemTarefa" draggable="true" ondragstart="pegaItem(event);" id="t1">Tarefa 1</div>
-                    <div class="itemTarefa" draggable="true" ondragstart="pegaItem(event);" id="t2">Tarefa 2</div>
-                    <div class="itemTarefa" draggable="true" ondragstart="pegaItem(event);" id="t3">Tarefa 3</div>
-                    <div class="itemTarefa" draggable="true" ondragstart="pegaItem(event);" id="t4">Tarefa 4</div>
-                    <div class="itemTarefa" draggable="true" ondragstart="pegaItem(event);" id="t5">Tarefa 5</div>
-                    <div class="itemTarefa" draggable="true" ondragstart="pegaItem(event);" id="t6">Tarefa 6</div>
-                    <div class="itemTarefa" draggable="true" ondragstart="pegaItem(event);" id="t7">Tarefa 7</div>
-
-                </div>
+                <div class="col-md-4 coluna" ondrop="recebeItem(event);" ondragover="habilitaArrastar(event);" id="pendentes"></div>
                 <div class="col-md-4 coluna" ondrop="recebeItem(event);" ondragover="habilitaArrastar(event);" id="fazendo"></div>
                 <div class="col-md-4 coluna" ondrop="recebeItem(event);" ondragover="habilitaArrastar(event);" id="feitas"></div>
             </div>
